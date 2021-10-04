@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: #3232c8;;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #7ed899;
+  background: #ba9aff;
   color: #fff;
 }
 .back-to-top.active {
@@ -646,6 +646,11 @@ section {
 /*--------------------------------------------------------------
 # Courses
 --------------------------------------------------------------*/
+.img-course{
+  height: 350px;
+  width: 360px;
+  object-fit: cover;
+}
 .courses .course-item {
   border-radius: 5px;
   border: 1px solid #eef0ef;
@@ -662,7 +667,7 @@ section {
   transition: 0.3s;
 }
 .courses .course-content h3 a:hover {
-  color: #5fcf80;
+  color: #3232c8;
 }
 .courses .course-content p {
   font-size: 14px;
@@ -670,7 +675,7 @@ section {
 }
 .courses .course-content h4 {
   font-size: 14px;
-  background: #5fcf80;
+  background: #3232c8;
   padding: 7px 14px;
   color: #fff;
   margin: 0;
@@ -739,7 +744,7 @@ section {
   transition: 0.3s;
 }
 .trainers .member .social a:hover {
-  color: #5fcf80;
+  color: #3232c8;
 }
 .trainers .member .social i {
   font-size: 18px;
@@ -1346,7 +1351,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: #3232c8;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1358,7 +1363,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #3ac162;
+  background: #ba9aff;
   color: #fff;
   text-decoration: none;
 }
