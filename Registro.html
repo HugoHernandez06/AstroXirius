@@ -10,6 +10,7 @@ Author URL: http://w3layouts.com
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
 
@@ -386,7 +387,7 @@ document.getElementById("form_login").addEventListener("submit",function(event){
     if(localStorage.getItem(user.value)!=null){
         let userr= JSON.parse(localStorage.getItem(user.value));
         if(userr[0].pass==md5(pass.value.toString())){
-            location.href = "contenido_exclusivo.html";
+            location.href = "precios.html";
         }else{
             alert("Contraseña incorrecta");
             pass.value="";
