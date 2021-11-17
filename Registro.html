@@ -387,7 +387,7 @@ document.getElementById("form_login").addEventListener("submit",function(event){
     if(localStorage.getItem(user.value)!=null){
         let userr= JSON.parse(localStorage.getItem(user.value));
         if(userr[0].pass==md5(pass.value.toString())){
-            location.href = "precios.html";
+            location.href = "Precios.html";
         }else{
             alert("Contraseña incorrecta");
             pass.value="";
